@@ -1,15 +1,19 @@
 package Contenedores;
 
 import Iterador.Iterador;
+import Iterador.IteradorArrayList;
 import persona.Persona;
 
 import java.util.ArrayList;
 
-public class ContenedorArrayList implements  ContenedorPersonas {
+public class ContenedorArrayList implements ContenedorPersonas {
+
     private ArrayList<Persona> personas;
+
     public ContenedorArrayList() {
-        personas = new ArrayList<Persona>();
+        personas = new ArrayList<>();
     }
+
     @Override
     public void agregar(Persona persona) {
         personas.add(persona);
@@ -17,7 +21,6 @@ public class ContenedorArrayList implements  ContenedorPersonas {
 
     @Override
     public Iterador<Persona> getIterador() {
-        return null;
+        return new IteradorArrayList(personas);
     }
-
 }
