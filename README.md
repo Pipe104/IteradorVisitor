@@ -37,6 +37,9 @@ El proyecto fue desarrollado utilizando:
 
 ***
 ## 🛠️ Diagrama UML
+
+<img width="793" height="924" alt="image" src="https://github.com/user-attachments/assets/33e07e00-a16d-4217-be59-c052db87ef9d" />
+
 ***
 
 ## 🧑‍💻 Autores
