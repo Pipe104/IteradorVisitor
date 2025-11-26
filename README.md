@@ -36,6 +36,8 @@ El proyecto fue desarrollado utilizando:
 * **Entorno de Desarrollo (IDE):** IntelliJ IDEA (inferido por el archivo `.iml` e `.idea`)
 
 ***
+## 🛠️ Diagrama UML
+***
 
 ## 🧑‍💻 Autores
 
